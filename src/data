@@ -1,0 +1,27 @@
+  const menu= {
+        type: 'beefBurger',
+        name: 'Turkish Beef Burger',
+        price: 3.5,
+        description: 'BBQ sauce, Mozzarella Cheese, Lettuce, Tomato & Makers Sauce.',
+
+        type: 'beefBurger',
+        name: 'American Beef Burger',
+        price: 3.5,
+        description: 'Chili Sauce, Cheddar Cheese, Onion, Tomato, Lettuce & Makers Sauce.',
+
+        type: 'beefBurger',
+        name: 'Italian Beef Burger',
+        price: 4.5,
+        description: 'A Slice Of Beef Bacon, Smoked Cheese, Tomato, Lettuce & Makers Sauce.',
+        
+        type: 'beefBurger',
+        name: 'Mexican Beef Burger',
+        price: 7.5,
+        description: 'A Slice Of Beef Bacon, Smoked Cheese, Tomato, Lettuce & Makers Sauce.',
+
+        type: 'beefBurger',
+        name: 'Italian Beef Burger',
+        price: 3.5,
+        description: 'A Slice Of Beef Bacon, Smoked Cheese, Tomato, Lettuce & Makers Sauce.',
+
+    }

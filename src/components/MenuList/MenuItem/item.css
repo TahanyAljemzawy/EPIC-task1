@@ -1,0 +1,134 @@
+.item {
+    display: flex;
+    padding: 10px;
+    width: 634px;
+    height: 70px;
+    margin: 0px auto 3px auto;
+    background: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ratioBox-container {
+    width: 50px;
+    height: 50px;
+    left: 566px;
+    top: 17px;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative;
+}
+
+.item > img {
+    width: 50px;
+height: 50px;
+    
+}
+
+.item__desc__container{
+    width: 334px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5px;
+}
+.item__describtion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+    height: 64px;
+    
+}
+
+.item__desc {
+    font-weight: 300; 
+    font-size: 14px;
+    color: #848484;
+    text-align: left;
+    height: 40px;
+    width: 334px;
+    margin: 0;
+}
+.item__name {
+    margin:0;
+    width: 237px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    
+}
+
+.item__price {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 700px) {
+    .item {        
+        width: 534px; 
+    }
+    .item > img {
+  
+       margin-left: 5px; 
+    }
+  }
+
+  
+  @media (max-width: 600px) {
+    .item {        
+        width: 100%; 
+        height: 60%;
+        box-sizing: border-box;
+   }
+  
+    .item__name, .item__price {
+        font-size: .9rem;
+
+    }
+  } 
+  
+  @media (max-width: 470px) {
+    .item {      
+        width: 100%;   
+        box-sizing: border-box;
+   }
+
+    .item__describtion {
+        width: 100%;
+        height: 100%;
+       justify-content:stretch;
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    .item__name, .item__price,.item__desc {
+        font-size: .8rem;
+
+    }
+  }  
+  @media (max-width: 450px) {
+
+    .item__describtion {
+        width: 50%;
+        height: 100%;
+    
+    }
+   .item > img {
+    width: 60px;
+    height: 60px;
+    
+}
+  }   
+
+  @media (max-width: 380px) {
+  
+   .item {
+    align-items: flex-start;
+
+       flex-direction: column;
+   }  
+}
+    
